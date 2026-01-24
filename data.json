@@ -1,0 +1,65 @@
+[
+  {
+    "word": "Delve into",
+    "partsOfSpeech": "Phrasal Verb",
+    "level":8,
+    "meaning": "গভীরে যাওয়া বা বিস্তারিত অনুসন্ধান করা",
+    "pronunciation": "ডেলভ ইনটু",
+    "sentence": "I am learning to delve into the English language.",
+    "synonyms": ["Investigate", "Explore", "Examine"]
+  },
+  {
+    "word": "Consistency",
+    "partsOfSpeech": "Noun",
+    "meaning": "ধারাবাহিকতা",
+    "level":8,
+    "pronunciation": "কনসিস্টেন্সি",
+    "sentence": "Consistency is the key to mastering any skill.",
+    "synonyms": ["Stability", "Regularity", "Persistence"]
+  },
+  {
+    "word": "Acquire",
+    "partsOfSpeech": "Verb",
+    "level":8,
+    "meaning": "অর্জন করা বা আয়ত্ত করা",
+    "pronunciation": "অ্যাকোয়ার",
+    "sentence": "He managed to acquire a high score in IELTS.",
+    "synonyms": ["Obtain", "Gain", "Procure"]
+  },
+  {
+    "word": "Proficient",
+    "partsOfSpeech": "Adjective",
+    "meaning": "দক্ষ বা পারদর্শী",
+    "level":8,
+    "pronunciation": "প্রফিশিয়েন্ট",
+    "sentence": "She is proficient in both JavaScript and English.",
+    "synonyms": ["Skilled", "Expert", "Adept"]
+  },
+  {
+    "word": "Ambiguous",
+    "partsOfSpeech": "Adjective",
+    "meaning": "অস্পষ্ট বা দ্ব্যর্থবোধক",
+    "pronunciation": "অ্যাম্বিগুয়াস",
+    "level":8,
+    "sentence": "The logic of the sentence was a bit ambiguous.",
+    "synonyms": ["Unclear", "Vague", "Obscure"]
+  },
+  {
+    "word": "Enhance",
+    "partsOfSpeech": "Verb",
+    "meaning": "বৃদ্ধি করা বা উন্নত করা",
+    "pronunciation": "এনহ্যান্স",
+    "level":8,
+    "sentence": "Reading books will enhance your vocabulary.",
+    "synonyms": ["Improve", "Boost", "Upgrade"]
+  },
+  {
+    "word": "Crucial",
+    "partsOfSpeech": "Adjective",
+    "meaning": "খুবই গুরুত্বপূর্ণ বা সিদ্ধান্তমূলক",
+    "level":8,
+    "pronunciation": "ক্রুশিয়াল",
+    "sentence": "Grammar is crucial for clear communication.",
+    "synonyms": ["Essential", "Critical", "Vital"]
+  }
+]
