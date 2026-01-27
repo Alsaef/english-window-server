@@ -61,5 +61,87 @@
     "pronunciation": "ক্রুশিয়াল",
     "sentence": "Grammar is crucial for clear communication.",
     "synonyms": ["Essential", "Critical", "Vital"]
+  },
+  {
+    "word": "Fundamental",
+    "partsOfSpeech": "Adjective",
+    "level": 9,
+    "meaning": "মৌলিক / প্রধান",
+    "pronunciation": "ফান্ডামেন্টাল",
+    "sentence": "Reading is a fundamental skill that every child should learn.",
+    "synonyms": ["Basic", "Essential", "Primary"]
+  },
+  {
+    "word": "Appreciate",
+    "partsOfSpeech": "Verb",
+    "level": 9,
+    "meaning": "মূল্যায়ন করা / প্রশংসা করা",
+    "pronunciation": "অ্যাপ্রিশিয়েট",
+    "sentence": "I truly appreciate your help with my homework.",
+    "synonyms": ["Value", "Praise", "Admire"]
+  },
+  {
+    "word": "Revered",
+    "partsOfSpeech": "Adjective",
+    "level": 9,
+    "meaning": "শ্রদ্ধেয় / সম্মানিত",
+    "pronunciation": "রিভিয়ার্ড",
+    "sentence": "Syed Waliullah is highly revered all over Bangladesh for his writing.",
+    "synonyms": ["Respected", "Honored", "Venerated"]
+  },
+  {
+    "word": "Candidate",
+    "partsOfSpeech": "Noun",
+    "level": 9,
+    "meaning": "প্রার্থী",
+    "pronunciation": "ক্যান্ডিডেট",
+    "sentence": "The job candidates must pass a written test before the interview.",
+    "synonyms": ["Applicant", "Contender", "Nominee"]
+  },
+  {
+    "word": "Majestic",
+    "partsOfSpeech": "Adjective",
+    "level": 9,
+    "meaning": "মহিমান্বিত / রাজকীয়",
+    "pronunciation": "ম্যাজেস্টিক",
+    "sentence": "The majestic mountains were covered with snow.",
+    "synonyms": ["Grand", "Splendid", "Royal"]
+  },
+  {
+    "word": "Gracefully",
+    "partsOfSpeech": "Adverb",
+    "level": 9,
+    "meaning": "সুন্দরভাবে / মার্জিতভাবে",
+    "pronunciation": "গ্রেসফুলি",
+    "sentence": "He danced gracefully across the stage.",
+    "synonyms": ["Elegantly", "Smoothly", "Politely"]
+  },
+  {
+    "word": "Vast",
+    "partsOfSpeech": "Adjective",
+    "level": 9,
+    "meaning": "ব্যাপক / বিশাল",
+    "pronunciation": "ভাস্ট",
+    "sentence": "The vast majority of people prefer to travel during the summer holidays.",
+    "synonyms": ["Huge", "Enormous", "Immense"]
+  },
+  {
+    "word": "Quaint",
+    "partsOfSpeech": "Adjective",
+    "level": 9,
+    "meaning": "প্রাচীন ও আকর্ষণীয় / অদ্ভুত",
+    "pronunciation": "কোয়েন্ট",
+    "sentence": "We visited a quaint village during our vacation.",
+    "synonyms": ["Old-fashioned", "Charming", "Unique"]
+  },
+  {
+    "word": "Cherish",
+    "partsOfSpeech": "Verb",
+    "level": 9,
+    "meaning": "সযত্নে রাখা / লালন করা",
+    "pronunciation": "চেরিশ",
+    "sentence": "I will always cherish the memories of our time spent together.",
+    "synonyms": ["Treasure", "Value", "Foster"]
   }
+
 ]

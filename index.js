@@ -35,6 +35,12 @@ async function run() {
         const levels = DB.collection('levels');
 
 
+        // app.get('/vocabulary', async (req, res) => {
+        //     const dataUpload=req.body;
+        //     const result = await vocabulary.insertMany(dataUpload);
+        //     res.send({ status: true, data: result });
+        // })
+
         app.get('/vocabulary/:level', async (req, res) => {
             const { level } = req.params;
             const query = { level: isNaN(level) ? level : parseInt(level) };
