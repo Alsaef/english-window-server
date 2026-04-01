@@ -36,11 +36,11 @@ async function run() {
         const levels = DB.collection('levels');
 
 
-        app.post('/vocabulary', async (req, res) => {
-            const dataUpload=req.body;
-            const result = await vocabularys.insertMany(dataUpload);
-            res.send({ status: true, data: result });
-        }) 
+        // app.post('/vocabulary', async (req, res) => {
+        //     const dataUpload=req.body;
+        //     const result = await vocabularys.insertMany(dataUpload);
+        //     res.send({ status: true, data: result });
+        // }) 
 
 
          app.get('/list', async (req, res) => {
