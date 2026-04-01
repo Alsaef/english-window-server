@@ -32,14 +32,22 @@ async function run() {
 
         const DB = client.db('EnglihDB');
         const vocabulary = DB.collection('vocabularys');
+        const vocabularys = DB.collection('newListListining');
         const levels = DB.collection('levels');
 
 
-        // app.get('/vocabulary', async (req, res) => {
-        //     const dataUpload=req.body;
-        //     const result = await vocabulary.insertMany(dataUpload);
-        //     res.send({ status: true, data: result });
-        // })
+        app.post('/vocabulary', async (req, res) => {
+            const dataUpload=req.body;
+            const result = await vocabularys.insertMany(dataUpload);
+            res.send({ status: true, data: result });
+        }) 
+
+
+         app.get('/list', async (req, res) => {
+         
+            const result = await vocabularys.find().toArray();
+            res.send({ status: true, data: result });
+        }) 
 
         app.get('/vocabulary/:level', async (req, res) => {
             const { level } = req.params;

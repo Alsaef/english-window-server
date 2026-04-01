@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "word": "Achievement",
+    "type": "Noun",
+    "pronunciation": "অ্যাচিভমেন্ট",
+    "bangla_meaning": "সাফল্য / অর্জন",
+    "synonyms": ["Success", "Accomplishment", "Attainment"]
+  },
+  {
+    "id": 2,
+    "word": "Abundant",
+    "type": "Adjective",
+    "pronunciation": "অ্যাবানড্যান্ট",
+    "bangla_meaning": "প্রচুর",
+    "synonyms": ["Plentiful", "Ample", "Copious"]
+  },
+  {
+    "id": 3,
+    "word": "Accelerate",
+    "type": "Verb",
+    "pronunciation": "অ্যাক্সিলারেট",
+    "bangla_meaning": "গতি বাড়ানো",
+    "synonyms": ["Speed up", "Hasten", "Quicken"]
+  },
+  {
+    "id": 4,
+    "word": "Accurate",
+    "type": "Adjective",
+    "pronunciation": "অ্যাকিউরেট",
+    "bangla_meaning": "সঠিক",
+    "synonyms": ["Precise", "Correct", "Exact"]
+  },
+  {
+    "id": 5,
+    "word": "Advantage",
+    "type": "Noun",
+    "pronunciation": "অ্যাডভানটেজ",
+    "bangla_meaning": "সুবিধা",
+    "synonyms": ["Benefit", "Profit", "Asset"]
+  },
+  {
+    "id": 6,
+    "word": "Analyze",
+    "type": "Verb",
+    "pronunciation": "অ্যানালাইজ",
+    "bangla_meaning": "বিশ্লেষণ করা",
+    "synonyms": ["Examine", "Inspect", "Study"]
+  },
+  {
+    "id": 7,
+    "word": "Ancient",
+    "type": "Adjective",
+    "pronunciation": "অ্যানশেন্ট",
+    "bangla_meaning": "প্রাচীন",
+    "synonyms": ["Antique", "Old", "Aged"]
+  },
+  {
+    "id": 8,
+    "word": "Appreciate",
+    "type": "Verb",
+    "pronunciation": "অ্যাপ্রিশিয়েট",
+    "bangla_meaning": "প্রশংসা করা",
+    "synonyms": ["Value", "Admire", "Cherish"]
+  },
+  {
+    "id": 9,
+    "word": "Artificial",
+    "type": "Adjective",
+    "pronunciation": "আর্টিফিশিয়াল",
+    "bangla_meaning": "কৃত্রিম",
+    "synonyms": ["Synthetic", "Fake", "Man-made"]
+  },
+  {
+    "id": 10,
+    "word": "Attempt",
+    "type": "Noun/Verb",
+    "pronunciation": "অ্যাটটেম্পট",
+    "bangla_meaning": "চেষ্টা করা",
+    "synonyms": ["Effort", "Try", "Endeavor"]
+  },
+  {
+    "id": 11,
+    "word": "Barrier",
+    "type": "Noun",
+    "pronunciation": "ব্যারিয়ার",
+    "bangla_meaning": "প্রতিবন্ধকতা",
+    "synonyms": ["Obstacle", "Hurdle", "Blockage"]
+  },
+  {
+    "id": 12,
+    "word": "Brief",
+    "type": "Adjective",
+    "pronunciation": "ব্রিফ",
+    "bangla_meaning": "সংক্ষিপ্ত",
+    "synonyms": ["Short", "Concise", "Compact"]
+  },
+  {
+    "id": 13,
+    "word": "Challenge",
+    "type": "Noun/Verb",
+    "pronunciation": "চ্যালেঞ্জ",
+    "bangla_meaning": "চ্যালেঞ্জ / মোকাবিলা করা",
+    "synonyms": ["Difficulty", "Test", "Problem"]
+  },
+  {
+    "id": 14,
+    "word": "Communicate",
+    "type": "Verb",
+    "pronunciation": "কমিউনিকেট",
+    "bangla_meaning": "যোগাযোগ করা",
+    "synonyms": ["Convey", "Share", "Interact"]
+  },
+  {
+    "id": 15,
+    "word": "Component",
+    "type": "Noun",
+    "pronunciation": "কম্পোনেন্ট",
+    "bangla_meaning": "উপাদান / অংশ",
+    "synonyms": ["Part", "Element", "Section"]
+  },
+  {
+    "id": 16,
+    "word": "Considerable",
+    "type": "Adjective",
+    "pronunciation": "কনসিডারেবল",
+    "bangla_meaning": "যথেষ্ট / উল্লেখযোগ্য",
+    "synonyms": ["Significant", "Substantial", "Large"]
+  },
+  {
+    "id": 17,
+    "word": "Crucial",
+    "type": "Adjective",
+    "pronunciation": "ক্রুশিয়াল",
+    "bangla_meaning": "খুবই গুরুত্বপূর্ণ",
+    "synonyms": ["Essential", "Critical", "Vital"]
+  },
+  {
+    "id": 18,
+    "word": "Decrease",
+    "type": "Verb/Noun",
+    "pronunciation": "ডিক্রিজ",
+    "bangla_meaning": "কমানো / হ্রাস পাওয়া",
+    "synonyms": ["Reduce", "Lower", "Diminish"]
+  },
+  {
+    "id": 19,
+    "word": "Demonstrate",
+    "type": "Verb",
+    "pronunciation": "ডেমনস্ট্রেট",
+    "bangla_meaning": "প্রদর্শন করা / প্রমাণ করা",
+    "synonyms": ["Show", "Prove", "Exhibit"]
+  },
+  {
+    "id": 20,
+    "word": "Diverse",
+    "type": "Adjective",
+    "pronunciation": "ডাইভার্স",
+    "bangla_meaning": "বৈচিত্র্যময়",
+    "synonyms": ["Varied", "Different", "Assorted"]
+  }
+]

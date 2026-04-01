@@ -143,5 +143,96 @@
     "sentence": "I will always cherish the memories of our time spent together.",
     "synonyms": ["Treasure", "Value", "Foster"]
   }
+,
+   {
+    "word": "Fascinated",
+    "partsOfSpeech": "Adjective",
+    "level": 10,
+    "meaning": "অভিভূত / মুগ্ধ",
+    "pronunciation_bangla": "ফ্যাসিনেটেড",
+    "simple_sentence": "She was fascinated by the intricate designs on the ancient pottery.",
+    "synonyms": ["Captivated", "Enchanted", "Mesmerized"]
+  },
+  {
+    "word": "Suspend",
+    "partsOfSpeech": "Verb",
+    "level": 10,
+    "meaning": "স্থগিত রাখা / সাময়িকভাবে বন্ধ করা",
+    "pronunciation_bangla": "সাসপেন্ড",
+    "simple_sentence": "The school decided to suspend classes due to heavy rain.",
+    "synonyms": ["Postpone", "Delay", "Halt"]
+  },
+  {
+    "word": "Rely",
+    "partsOfSpeech": "Verb",
+    "level": 10,
+    "meaning": "নির্ভর করা",
+    "pronunciation_bangla": "রিলাই",
+    "simple_sentence": "Children rely on their parents for support.",
+    "synonyms": ["Depend", "Trust", "Count on"]
+  },
+  {
+    "word": "Ecstatically",
+    "partsOfSpeech": "Adverb",
+    "level": 10,
+    "meaning": "উচ্ছ্বাসভরে / পরম আনন্দে",
+    "pronunciation_bangla": "এক্সট্যাটিক্যালি",
+    "simple_sentence": "She jumped ecstatically when she heard the good news.",
+    "synonyms": ["Joyfully", "Happily", "Elatedly"]
+  },
+  {
+    "word": "Glamorous",
+    "partsOfSpeech": "Adjective",
+    "level": 10,
+    "meaning": "জাঁকজমকপূর্ণ / আকর্ষণীয়",
+    "pronunciation_bangla": "গ্ল্যামারাস",
+    "simple_sentence": "She wore a glamorous dress to the party.",
+    "synonyms": ["Attractive", "Charming", "Dazzling"]
+  },
+  {
+    "word": "Amazed",
+    "partsOfSpeech": "Adjective",
+    "level": 10,
+    "meaning": "অবাক / বিস্মিত",
+    "pronunciation_bangla": "অ্যামেজড",
+    "simple_sentence": "I was amazed at how quickly she completed the puzzle.",
+    "synonyms": ["Astonished", "Surprised", "Stunned"]
+  },
+  {
+    "word": "Handmade",
+    "partsOfSpeech": "Adjective",
+    "level": 10,
+    "meaning": "হাতের তৈরি",
+    "pronunciation_bangla": "হ্যান্ডমেইড",
+    "simple_sentence": "He gave her a handmade gift for her birthday.",
+    "synonyms": ["Handcrafted", "Artisanal"]
+  },
+  {
+    "word": "Surprise",
+    "partsOfSpeech": "Noun/Verb",
+    "level": 10,
+    "meaning": "আশ্চর্য / বিস্ময়",
+    "pronunciation_bangla": "সারপ্রাইজ",
+    "simple_sentence": "To my surprise, they threw a surprise party for my birthday.",
+    "synonyms": ["Astonishment", "Wonder", "Shock"]
+  },
+  {
+    "word": "Resources",
+    "partsOfSpeech": "Noun",
+    "level": 10,
+    "meaning": "সম্পদ",
+    "pronunciation_bangla": "রিসোর্সেস",
+    "simple_sentence": "The company invested heavily in human resources.",
+    "synonyms": ["Assets", "Materials", "Wealth"]
+  },
+  {
+    "word": "Magical",
+    "partsOfSpeech": "Adjective",
+    "level": 10,
+    "meaning": "জাদুকরী",
+    "pronunciation_bangla": "ম্যাজিকাল",
+    "simple_sentence": "Watching the sunset over the ocean was a truly magical experience.",
+    "synonyms": ["Enchanting", "Mystical", "Marvelous"]
+  }
 
 ]
