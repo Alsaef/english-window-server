@@ -34,18 +34,19 @@ async function run() {
         const vocabulary = DB.collection('vocabularys');
         const vocabularys = DB.collection('newListListining');
         const levels = DB.collection('levels');
+         const moviesvocab = DB.collection('moviesvocab');
 
 
         // app.post('/vocabulary', async (req, res) => {
         //     const dataUpload=req.body;
-        //     const result = await vocabularys.insertMany(dataUpload);
+        //     const result = await moviesvocab.insertMany(dataUpload);
         //     res.send({ status: true, data: result });
         // }) 
 
 
-         app.get('/list', async (req, res) => {
+         app.get('/movies', async (req, res) => {
          
-            const result = await vocabularys.find().toArray();
+            const result = await moviesvocab.find().toArray();
             res.send({ status: true, data: result });
         }) 
 
