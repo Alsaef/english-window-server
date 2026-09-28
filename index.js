@@ -228,6 +228,7 @@ function generateFallbackAnalysis(sentence) {
             overallScore: 0,
             bengaliMeaning: "এটি কোনো অর্থপূর্ণ ইংরেজি বাক্য বা শব্দ নয় (এলোমেলো টাইপ করা বর্ণ সমষ্টি)।",
             englishMeaning: "This input consists of meaningless gibberish or random letters with no valid English words or sentence structure.",
+            paraphrases: [],
             errors: [
                 {
                     type: "Invalid / Gibberish Input",
@@ -311,6 +312,33 @@ function generateFallbackAnalysis(sentence) {
         tip = "Remember: 'Look forward to', 'accustomed to', and 'with a view to' are always followed by verb+ing.";
     }
 
+    const fallbackParaphrases = [
+        {
+            style: "Fluent & Natural",
+            text: corrected,
+            bengaliMeaning: bengaliMeaning,
+            explanation: "Natural and modern phrasing suitable for fluent everyday communication."
+        },
+        {
+            style: "Formal / Academic",
+            text: formalAlt,
+            bengaliMeaning: bengaliMeaning,
+            explanation: "Advanced vocabulary and professional tone suitable for academic or formal context."
+        },
+        {
+            style: "Short & Concise",
+            text: corrected.replace(/very\s+/gi, ""),
+            bengaliMeaning: bengaliMeaning,
+            explanation: "Direct and compact phrasing with minimal filler words."
+        },
+        {
+            style: "Casual / Spoken",
+            text: casualAlt,
+            bengaliMeaning: bengaliMeaning,
+            explanation: "Relaxed, idiomatic phrasing for friendly conversation."
+        }
+    ];
+
     return {
         isCorrect,
         originalSentence: sentence,
@@ -319,6 +347,7 @@ function generateFallbackAnalysis(sentence) {
         overallScore: score,
         bengaliMeaning,
         englishMeaning,
+        paraphrases: fallbackParaphrases,
         errors,
         improvedAlternative: corrected,
         formalAlternative: formalAlt,
@@ -390,6 +419,7 @@ CRITICAL INSTRUCTIONS:
    - "correctedSentence": "Please write a meaningful English sentence."
    - "bengaliMeaning": "এটি কোনো অর্থপূর্ণ ইংরেজি বাক্য বা শব্দ নয় (এলোমেলো টাইপ করা বর্ণ সমষ্টি)।"
    - "englishMeaning": "This is meaningless gibberish or random letters without real English words or structure."
+   - "paraphrases": []
    - "errors": [{ "type": "Invalid / Gibberish Text", "incorrect": "${trimmedSentence}", "correction": "Use real English words", "explanation": "The text is a random string of characters without linguistic meaning.", "bengaliExplanation": "এটি কোনো অর্থপূর্ণ ইংরেজি শব্দ নয়, বরং এলোমেলো বর্ণ।" }]
    - "improvedAlternative": ""
    - "formalAlternative": ""
@@ -400,6 +430,16 @@ CRITICAL INSTRUCTIONS:
 2. If it contains real English words:
    - Carefully examine grammar, subject-verb agreement, tense, prepositions, articles, spelling, and natural spoken/written English flow.
    - Provide the FULL, ACCURATE, AND CONTEXTUAL BENGALI MEANING (সম্পূর্ণ বাক্যের যথাযথ, প্রাঞ্জল ও সাবলীল বাংলা অর্থ). Ensure the Bengali translation translates the ENTIRE sentence naturally, maintaining tone and intended meaning.
+   - AUTOMATICALLY GENERATE 4 DIVERSE SENTENCE PARAPHRASES (বাক্য রূপান্তর / প্যারাফ্রেজিং) with distinct styles:
+     1. "Fluent & Natural": Modern, natural phrasing used by fluent native speakers.
+     2. "Formal / Academic": Sophisticated vocabulary, formal tone suitable for exams, academic writing, or professional emails.
+     3. "Short & Concise": Direct, compact phrasing eliminating unnecessary words.
+     4. "Casual / Spoken": Idiomatic, friendly conversational phrasing for daily speaking.
+     Each paraphrase MUST include:
+     - style: ("Fluent & Natural" | "Formal / Academic" | "Short & Concise" | "Casual / Spoken")
+     - text: (the rewritten sentence)
+     - bengaliMeaning: (the accurate Bengali translation of this specific paraphrased sentence)
+     - explanation: (a brief explanation of when or why to use this variation)
    - Write a simplified explanation of what the sentence means in plain English.
 
 You MUST respond strictly with a valid JSON object following this exact schema:
@@ -411,6 +451,14 @@ You MUST respond strictly with a valid JSON object following this exact schema:
   "overallScore": 95,
   "bengaliMeaning": "সম্পূর্ণ বাক্যের সঠিক, প্রাঞ্জল ও স্বাভাবিক বাংলা অর্থ (Full sentence Bengali translation)",
   "englishMeaning": "Clear and simple explanation of the full sentence in plain English",
+  "paraphrases": [
+    {
+      "style": "Fluent & Natural | Formal / Academic | Short & Concise | Casual / Spoken",
+      "text": "The rephrased sentence variation",
+      "bengaliMeaning": "উক্ত প্যারাফ্রেজ বাক্যের নির্ভুল বাংলা অর্থ",
+      "explanation": "When or why to use this paraphrased phrasing"
+    }
+  ],
   "errors": [
     {
       "type": "Grammar / Tense / Subject-Verb / Preposition / Article / Spelling / Punctuation",
